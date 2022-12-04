@@ -4,7 +4,7 @@ import { FiMail, FiPhone } from "react-icons/fi";
 
 const AboutMe = () => {
   return (
-    <div className="bg-white flex gap-6 p-6 rounded-xl">
+    <div className="bg-white flex lg:flex-row md:flex-row flex-col gap-6 p-6 rounded-xl">
       {/* Left side */}
       <div>
         <img className="w-64 rounded-xl" src={profile} alt="profile" />
