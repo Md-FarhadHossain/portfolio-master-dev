@@ -12,7 +12,7 @@ const Experiences = () => {
             <img className='w-24' src={adidas} alt="adidas" />
             <div>
                 <p>Feb 2022 - Current</p>
-                <h3 className="text-lg font-semibold">Front-end developer</h3>
+                <h3 className="text-lg mb-2 font-semibold">Front-end developer</h3>
                 <p className='mt-8'>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
             </div>
         </div>
@@ -22,8 +22,8 @@ const Experiences = () => {
             <img className='w-24' src={netflix} alt="netflix" />
             <div>
                 <p>Aug 2020 - Feb 2021</p>
-                <h3 className="text-lg font-semibold">Full-stack developer</h3>
-                <p className='mt-8 '>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
+                <h3 className="text-lg mb-4 font-semibold">Full-stack developer</h3>
+                <p className='mt-8 mb-6'>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
             </div>
         </div>
     </div>

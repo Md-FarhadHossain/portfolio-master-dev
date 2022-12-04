@@ -4,15 +4,15 @@ import { FiMail, FiPhone } from "react-icons/fi";
 
 const AboutMe = () => {
   return (
-    <div className="bg-white flex lg:flex-row md:flex-row flex-col gap-6 p-6 rounded-xl">
+    <div className="bg-white flex lg:flex-row md:flex-row flex-col gap-8 justify-between p-6 rounded-xl">
       {/* Left side */}
       <div>
-        <img className="w-64 rounded-xl" src={profile} alt="profile" />
+        <img className="w-full rounded-xl" src={profile} alt="profile" />
       </div>
       {/* Right side */}
       <div>
         {/* Top section */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between lg:flex-row md:flex-row flex-col">
           {/* Left */}
           <div>
             <h2 className="text-2xl font-semibold">Farhad Hossain</h2>
@@ -20,18 +20,18 @@ const AboutMe = () => {
           </div>
 
           {/* Right */}
-          <div className="">
-            <p className="flex items-center">
+          <div className="mt-4 lg:mt-0 md:mt-0">
+            <p className="flex items-center text-center">
               <span>
                 <FiMail />
               </span>{" "}
-              farhadhossain0153@gmail.com
+              <span className="ml-2 font-semibold"> farhadhossain0153@gmail.com </span>
             </p>
-            <p className="flex items-center">
+            <p className="flex items-center justify-center lg:justify-start md:justify-start">
               <span>
                 <FiPhone />
               </span>{" "}
-              (+880) 1754 924 587
+             <p className="ml-2 font-semibold text-center"> (+880) 1754 924 587</p>
             </p>
           </div>
         </div>
@@ -42,8 +42,7 @@ const AboutMe = () => {
             outstanding <br /> full stack applications.
           </p>
           <p className="mt-6">
-            Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque
-            feugiat malesuada molestie.
+          A MERN stack developer is an expert in MongoDB, Express, React and Node. They are proficient in JavaScript and use HTML, CSS and JavaScript to handle front-end operations and JavaScript with Node. js to handle back-end operations.
           </p>
         </div>
       </div>

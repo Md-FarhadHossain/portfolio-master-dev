@@ -5,7 +5,7 @@ const Blog = () => {
   return (
     <div className='bg-white pl-8 py-5 rounded-lg mb-8'>
         <p >Blog</p>
-        <div className='flex lg:flex-row md:flex-row flex-col'>
+        <div className='flex lg:flex-row md:flex-row flex-col overflow-hidden'>
             <h1 className="text-3xl">How to organize your CSS</h1>
             <img className='rounded-l-lg w-80' src={blogimg} alt="" />
         </div>
@@ -14,7 +14,7 @@ const Blog = () => {
         <p className='mb-16'>Donec aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat malesuada molestie.</p>
 
         <div>
-            <span className="link">dev.to</span>
+            <span className="link-hover font-semibold cursor-pointer text-[#2F80ED]">dev.to</span>
         </div>
         </div>
     </div>

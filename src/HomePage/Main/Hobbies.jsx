@@ -5,7 +5,7 @@ import image3 from "../../assets/h-3.jpg";
 const Hobbies = () => {
   return (
     <div className="bg-white rounded-lg px-8 py-5">
-      <h1 className="text-2xl">Hobbies</h1>
+      <h1 className="text-2xl mb-6">Hobbies</h1>
       <div className="grid gap-5">
         {/* 1 */}
         <div>
